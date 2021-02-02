@@ -1,15 +1,9 @@
-score = int(input("分數"))
-if score >=101:
-    print("這成績不對ㄟ")
-elif score>= 90:
-    print("A")
-elif score>= 80:
-    print("B")
-elif score>= 70:
-    print("C")
-elif score>= 60:
-    print("D")
-elif score>=0:
-    print("F")
-else:
-    print("這成績不對A")
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+
+This is a temporary script file.
+"""
+a = int(input("輸入"))
+for n in range(a+1,0,-1):
+    print(" "*n + "# "*(a-n))
